@@ -1,7 +1,6 @@
 // Solve Tower of Hanoi Problem for 'N' Discs
 
 #include<iostream>
-#define GGMU 20;
 using namespace std;
 
 void towerOfHanoi(int n, char source, char des, char aux){
@@ -20,5 +19,5 @@ int main()
 {
 
     towerOfHanoi(3, 'A', 'B', 'C');
-    return GGMU;
+    return 0;
 }

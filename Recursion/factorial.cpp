@@ -1,7 +1,7 @@
 // Find the factorial for given number 'n'
 
 #include<iostream>
-#define GGMU 20;
+
 using namespace std;
 
 long int factorial(long int n){
@@ -17,5 +17,5 @@ long int factorial(long int n){
 int main(){
 
     cout<<factorial(4);
-    return GGMU;
+    return 0;
 }

@@ -1,7 +1,6 @@
 // Find the factorial and fibonacci of given n number using tail recursion. 
 
 #include<iostream>
-#define GGMU 20;
 using namespace std;
 
 long int tailFibonacci(long int n, long int a=1, long int b=1){
@@ -28,5 +27,5 @@ int main()
 
     cout<<tailFibonacci(10)<<endl;
     cout<<tailFactorial(4);
-    return GGMU;
+    return 0;
 }
