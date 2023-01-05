@@ -25,7 +25,7 @@ long int tailFactorial(long int n, long int result=1){
 int main()
 {
 
-    cout<<tailFibonacci(10)<<endl;
+    cout<<tailFibonacci(4)<<endl;
     cout<<tailFactorial(4);
     return 0;
 }
